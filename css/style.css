@@ -202,10 +202,11 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     padding-bottom: 1rem;
 }
 .roadmap-title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: rgb(77, 71, 71);
 
@@ -287,6 +288,30 @@ li a{
 }
 li a:hover{
     cursor: pointer;
+}
+
+footer{
+    border-top: 1px solid rgb(179, 170, 170);
+    background-color: rgb(73, 69, 69);
+    padding: 1rem 0;
+    margin: 1rem 0;
+    
+}
+.footer-message{
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(163, 155, 145);
+    margin: 0.3rem 0.5rem;
+}
+.footer-contact{
+    font-size: 0.9rem;
+    color: rgb(163, 155, 145);
+    margin: 0 0.5rem;
+}
+.footer-copyright{
+    font-size: 0.8rem;
+    color: rgb(163, 155, 145);
+    margin: 1rem 0.5rem;
 }
 
 
