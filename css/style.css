@@ -214,22 +214,45 @@ section{
 
 .class-list{
     list-style: none;
+    padding: 0;
+    margin: 1rem 0;
 }
 .class-card{
     width: 240px;
     border-radius: 9px;
     box-shadow: 15px 15px 15px 5px rgba(25, 42, 70, .2);
+    margin: 0 10px;
 }
 .class-image{
-    width: 100%;
+    /* width: 100%; */
+    width: 240px;
     border-radius: 8px 8px 0 0;
 }
 .card-skill{
     display: flex;
     justify-content: space-between;
-    margin: 0 1rem;
     font-size: 0.9rem;
+    align-items: center;
 }
+.class-container{
+    width: 100%;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+.skill-type{
+    color: rgb(100, 96, 96);
+}
+.skill-format{
+    color: #fff;
+    background-color: rgb(52, 52, 194);
+    padding: 0.2rem 0.2rem;
+}
+.skill-format a{
+    all: unset;
+}
+.skill-format a:hover{
+    cursor: pointer;
+}
+
 
 @media only screen and (min-width:1400px){
     .inner{
